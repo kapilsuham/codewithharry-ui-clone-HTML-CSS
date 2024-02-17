@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    font-family: sans-serif;
+    /* overflow: auto; */
+}
+.flex{
+    display: flex;
+    top: 0px;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+}
+.flex1{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    margin-left: 300px;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+    gap: 15px;
+}
+.flex3{
+    color: darkmagenta;
+    border: 2px solid gray;
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    box-shadow:3px 3px 3px gray ;
+}
+li{
+    list-style-type: none;
+}
+h1{ 
+    font-size: 35px;
+    margin-top: 55px;
+    margin-left: 155px;
+    width: 50vw;
+}
+.h4{
+    font-size: 20px;
+    color: gray;
+    margin-top: 15px;
+    margin-left: 155px;
+    width: 40vw;
+}
+button{
+    border-radius: 6px;
+    border-color: blueviolet;
+
+}
+.b1{
+    padding: 10px;
+    margin-left: 155px;
+    border-color: black;
+}
+.b2{
+    padding: 10px;
+    border-color: gray;
+    margin-top: 25px;
+}
+.img{
+    width: 456px;
+    margin-top: 85px; 
+}
+.img2{
+    width: 350px;
+    height:200px;
+    margin-top: 0;
+    object-fit: cover;
+    object-position: left top   ;
+}
+.course{
+    overflow: hidden;
+    border: 2px solid gray;
+    width: 300px;
+    margin: 20px;
+    border-radius: 14px;
+}
+.flex4{
+    display: flex;
+    justify-content: center;
+}
